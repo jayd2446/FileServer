@@ -15,7 +15,7 @@ public class Client {
   public final static int FILE_SIZE = 6022386; // file size temporary hard coded
                                                // should bigger than the file to be downloaded
 
-  public static void main (String [] args ) throws IOException {
+  public static void main (String []args) throws IOException {
     int bytesRead;
     int current = 0;
     FileOutputStream fos = null;
